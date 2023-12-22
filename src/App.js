@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './componennts/Nav';
 import SectionA from './componennts/SectionA';
+import SectionB from './componennts/SectionB';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <Nav/>
     <SectionA/>
+    <SectionB/>
     </>
   );
 }
