@@ -2,59 +2,42 @@ import React from 'react'
 
 export default function SectionB() {
     return (
-        <section className="text-gray-600 body-font overflow-hidden">
-            <div className="container px-5 py-24 mx-auto">
-                <div className="-my-8 divide-y-2 divide-gray-100">
-                    <div className="py-8 flex flex-wrap md:flex-nowrap">
-                        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                            <span className="font-semibold title-font text-gray-700">CATEGORY</span>
-                            <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-                        </div>
-                        <div className="md:flex-grow">
-                            <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-                            <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                            <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="py-8 flex flex-wrap md:flex-nowrap">
-                        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                            <span className="font-semibold title-font text-gray-700">CATEGORY</span>
-                            <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-                        </div>
-                        <div className="md:flex-grow">
-                            <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Meditation bushwick direct trade taxidermy shaman</h2>
-                            <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                            <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="py-8 flex flex-wrap md:flex-nowrap">
-                        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                            <span className="font-semibold title-font text-gray-700">CATEGORY</span>
-                            <span className="text-sm text-gray-500">12 Jun 2019</span>
-                        </div>
-                        <div className="md:flex-grow">
-                            <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                            <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                            <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 md:w-1/2 w-full">
+        <div className="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p className="leading-relaxed mb-6">Reacthub actively contributes to the open-source community by creating and maintaining a variety of React-based projects. These projects cover a wide range of applications, from UI components and libraries to full-fledged web applications.</p>
+          <a className="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+            <span className="flex-grow flex flex-col pl-4">
+              <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
+              <span className="text-gray-500 text-sm">UI DEVELOPER</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/2 w-full">
+        <div className="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p className="leading-relaxed mb-6">The organization places a strong emphasis on adhering to best practices and coding standards. By maintaining a high level of code quality, ReactMasters aims to set an example for developers and encourage the adoption of industry best practices.</p>
+          <a className="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+            <span className="flex-grow flex flex-col pl-4">
+              <span className="title-font font-medium text-gray-900">Alper Kamu</span>
+              <span className="text-gray-500 text-sm">DESIGNER</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     )
 }
